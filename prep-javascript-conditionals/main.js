@@ -16,7 +16,7 @@ function didStudentPass(score) {
 }
 
 let didStudentPassResult = didStudentPass(80);
-console.log(didStudentPassResult);
+console.log('value of didStudentPassResult: ', didStudentPassResult);
 
 function gradeCalculator(score) {
   if (score < 60) {
@@ -35,7 +35,7 @@ function gradeCalculator(score) {
 }
 
 let gradeCalculatorResult = gradeCalculator(100);
-console.log(gradeCalculatorResult);
+console.log('value of gradeCalculatorResult: ', gradeCalculatorResult);
 
 function seasonMessenger(season) {
   if (season === 'summer') {
@@ -52,7 +52,7 @@ function seasonMessenger(season) {
 }
 
 let seasonMessengerResult = seasonMessenger('spring');
-console.log(seasonMessengerResult);
+console.log('value of seasonMessengerResult: ', seasonMessengerResult);
 
 function dayDetector(dayOfTheWeek) {
   if (dayOfTheWeek === 'saturday' || dayOfTheWeek === 'sunday') {
@@ -63,4 +63,4 @@ function dayDetector(dayOfTheWeek) {
 }
 
 let dayDetectorResult = dayDetector('thursday');
-console.log(dayDetectorResult);
+console.log('value of dayDetectorResult: ', dayDetectorResult);
