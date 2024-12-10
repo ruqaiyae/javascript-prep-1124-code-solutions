@@ -8,9 +8,10 @@ function isAdult(age) {
 }
 
 let isAdultResult = isAdult(20);
-console.log(isAdultResult);
+console.log('value of isAdultResult: ', isAdultResult);
 
 function didStudentPass(score) {
+  // tried to use conditional (ternary) operator
   return score >= 70 ? true : false;
 }
 
